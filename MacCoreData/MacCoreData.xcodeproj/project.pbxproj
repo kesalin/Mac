@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21A2DF781417097200C3646F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A2DF771417097200C3646F /* Cocoa.framework */; };
+		21A2DF821417097300C3646F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DF801417097300C3646F /* InfoPlist.strings */; };
+		21A2DF851417097300C3646F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DF841417097300C3646F /* main.m */; };
+		21A2DF881417097300C3646F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DF861417097300C3646F /* Credits.rtf */; };
+		21A2DF8B1417097300C3646F /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DF8A1417097300C3646F /* MyDocument.m */; };
+		21A2DF8E1417097300C3646F /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DF8C1417097300C3646F /* MyDocument.xib */; };
+		21A2DF911417097300C3646F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DF8F1417097300C3646F /* MainMenu.xib */; };
+		21A2DF941417097300C3646F /* MyDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DF921417097300C3646F /* MyDocument.xcdatamodeld */; };
+		21A2DFA314170FEC00C3646F /* StudentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DFA214170FEC00C3646F /* StudentView.xib */; };
+		21A2DFA514170FFB00C3646F /* ClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A2DFA414170FFB00C3646F /* ClassView.xib */; };
+		21A2DFB21417153100C3646F /* ManagedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DFB11417153000C3646F /* ManagedViewController.m */; };
+		21A2DFB51417158E00C3646F /* ClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DFB41417158B00C3646F /* ClassViewController.m */; };
+		21A2DFB8141715A600C3646F /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DFB7141715A200C3646F /* StudentViewController.m */; };
+		21A2DFBB14171F4E00C3646F /* ClassEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DFBA14171F4E00C3646F /* ClassEntity.m */; };
+		21A2DFBE14171F7900C3646F /* StudentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A2DFBD14171F7900C3646F /* StudentEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A2DF731417097200C3646F /* MacCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A2DF771417097200C3646F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		21A2DF7A1417097200C3646F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		21A2DF7B1417097200C3646F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21A2DF7C1417097200C3646F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21A2DF7F1417097300C3646F /* MacCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacCoreData-Info.plist"; sourceTree = "<group>"; };
+		21A2DF811417097300C3646F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21A2DF831417097300C3646F /* MacCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		21A2DF841417097300C3646F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21A2DF871417097300C3646F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		21A2DF891417097300C3646F /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		21A2DF8A1417097300C3646F /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		21A2DF8D1417097300C3646F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		21A2DF901417097300C3646F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21A2DF931417097300C3646F /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		21A2DFA214170FEC00C3646F /* StudentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentView.xib; sourceTree = "<group>"; };
+		21A2DFA414170FFB00C3646F /* ClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassView.xib; sourceTree = "<group>"; };
+		21A2DFB01417152F00C3646F /* ManagedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedViewController.h; sourceTree = "<group>"; };
+		21A2DFB11417153000C3646F /* ManagedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedViewController.m; sourceTree = "<group>"; };
+		21A2DFB31417158A00C3646F /* ClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassViewController.h; sourceTree = "<group>"; };
+		21A2DFB41417158B00C3646F /* ClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassViewController.m; sourceTree = "<group>"; };
+		21A2DFB6141715A100C3646F /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		21A2DFB7141715A200C3646F /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		21A2DFB914171F4D00C3646F /* ClassEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassEntity.h; sourceTree = "<group>"; };
+		21A2DFBA14171F4E00C3646F /* ClassEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassEntity.m; sourceTree = "<group>"; };
+		21A2DFBC14171F7900C3646F /* StudentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentEntity.h; sourceTree = "<group>"; };
+		21A2DFBD14171F7900C3646F /* StudentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentEntity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A2DF701417097200C3646F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2DF781417097200C3646F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21A2DF681417097200C3646F = {
+			isa = PBXGroup;
+			children = (
+				21A2DF7D1417097200C3646F /* MacCoreData */,
+				21A2DF761417097200C3646F /* Frameworks */,
+				21A2DF741417097200C3646F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21A2DF741417097200C3646F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF731417097200C3646F /* MacCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21A2DF761417097200C3646F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF771417097200C3646F /* Cocoa.framework */,
+				21A2DF791417097200C3646F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21A2DF791417097200C3646F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF7A1417097200C3646F /* AppKit.framework */,
+				21A2DF7B1417097200C3646F /* CoreData.framework */,
+				21A2DF7C1417097200C3646F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		21A2DF7D1417097200C3646F /* MacCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF9B1417099000C3646F /* Res */,
+				21A2DF9A1417098300C3646F /* Src */,
+				21A2DF7E1417097200C3646F /* Supporting Files */,
+			);
+			path = MacCoreData;
+			sourceTree = "<group>";
+		};
+		21A2DF7E1417097200C3646F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF7F1417097300C3646F /* MacCoreData-Info.plist */,
+				21A2DF801417097300C3646F /* InfoPlist.strings */,
+				21A2DF831417097300C3646F /* MacCoreData-Prefix.pch */,
+				21A2DF841417097300C3646F /* main.m */,
+				21A2DF861417097300C3646F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21A2DF9A1417098300C3646F /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF891417097300C3646F /* MyDocument.h */,
+				21A2DF8A1417097300C3646F /* MyDocument.m */,
+				21A2DFB914171F4D00C3646F /* ClassEntity.h */,
+				21A2DFBA14171F4E00C3646F /* ClassEntity.m */,
+				21A2DFBC14171F7900C3646F /* StudentEntity.h */,
+				21A2DFBD14171F7900C3646F /* StudentEntity.m */,
+				21A2DFB01417152F00C3646F /* ManagedViewController.h */,
+				21A2DFB11417153000C3646F /* ManagedViewController.m */,
+				21A2DFB31417158A00C3646F /* ClassViewController.h */,
+				21A2DFB41417158B00C3646F /* ClassViewController.m */,
+				21A2DFB6141715A100C3646F /* StudentViewController.h */,
+				21A2DFB7141715A200C3646F /* StudentViewController.m */,
+			);
+			name = Src;
+			sourceTree = "<group>";
+		};
+		21A2DF9B1417099000C3646F /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				21A2DF8C1417097300C3646F /* MyDocument.xib */,
+				21A2DF8F1417097300C3646F /* MainMenu.xib */,
+				21A2DF921417097300C3646F /* MyDocument.xcdatamodeld */,
+				21A2DFA214170FEC00C3646F /* StudentView.xib */,
+				21A2DFA414170FFB00C3646F /* ClassView.xib */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21A2DF721417097200C3646F /* MacCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A2DF971417097300C3646F /* Build configuration list for PBXNativeTarget "MacCoreData" */;
+			buildPhases = (
+				21A2DF6F1417097200C3646F /* Sources */,
+				21A2DF701417097200C3646F /* Frameworks */,
+				21A2DF711417097200C3646F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacCoreData;
+			productName = MacCoreData;
+			productReference = 21A2DF731417097200C3646F /* MacCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21A2DF6A1417097200C3646F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 21A2DF6D1417097200C3646F /* Build configuration list for PBXProject "MacCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21A2DF681417097200C3646F;
+			productRefGroup = 21A2DF741417097200C3646F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21A2DF721417097200C3646F /* MacCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21A2DF711417097200C3646F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2DF821417097300C3646F /* InfoPlist.strings in Resources */,
+				21A2DF881417097300C3646F /* Credits.rtf in Resources */,
+				21A2DF8E1417097300C3646F /* MyDocument.xib in Resources */,
+				21A2DF911417097300C3646F /* MainMenu.xib in Resources */,
+				21A2DFA314170FEC00C3646F /* StudentView.xib in Resources */,
+				21A2DFA514170FFB00C3646F /* ClassView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A2DF6F1417097200C3646F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A2DF851417097300C3646F /* main.m in Sources */,
+				21A2DF8B1417097300C3646F /* MyDocument.m in Sources */,
+				21A2DF941417097300C3646F /* MyDocument.xcdatamodeld in Sources */,
+				21A2DFB21417153100C3646F /* ManagedViewController.m in Sources */,
+				21A2DFB51417158E00C3646F /* ClassViewController.m in Sources */,
+				21A2DFB8141715A600C3646F /* StudentViewController.m in Sources */,
+				21A2DFBB14171F4E00C3646F /* ClassEntity.m in Sources */,
+				21A2DFBE14171F7900C3646F /* StudentEntity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21A2DF801417097300C3646F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2DF811417097300C3646F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21A2DF861417097300C3646F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2DF871417097300C3646F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		21A2DF8C1417097300C3646F /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2DF8D1417097300C3646F /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		21A2DF8F1417097300C3646F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21A2DF901417097300C3646F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21A2DF951417097300C3646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21A2DF961417097300C3646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21A2DF981417097300C3646F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoreData/MacCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MacCoreData/MacCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21A2DF991417097300C3646F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacCoreData/MacCoreData-Prefix.pch";
+				INFOPLIST_FILE = "MacCoreData/MacCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A2DF6D1417097200C3646F /* Build configuration list for PBXProject "MacCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A2DF951417097300C3646F /* Debug */,
+				21A2DF961417097300C3646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A2DF971417097300C3646F /* Build configuration list for PBXNativeTarget "MacCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A2DF981417097300C3646F /* Debug */,
+				21A2DF991417097300C3646F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21A2DF921417097300C3646F /* MyDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21A2DF931417097300C3646F /* MyDocument.xcdatamodel */,
+			);
+			currentVersion = 21A2DF931417097300C3646F /* MyDocument.xcdatamodel */;
+			path = MyDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21A2DF6A1417097200C3646F /* Project object */;
+}

@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D6049E1420743800BE2DB3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D6049D1420743800BE2DB3 /* Cocoa.framework */; };
+		21D604A81420743800BE2DB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21D604A61420743800BE2DB3 /* InfoPlist.strings */; };
+		21D604AB1420743800BE2DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604AA1420743800BE2DB3 /* main.m */; };
+		21D604AE1420743800BE2DB3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 21D604AC1420743800BE2DB3 /* Credits.rtf */; };
+		21D604B11420743800BE2DB3 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604B01420743800BE2DB3 /* MyDocument.m */; };
+		21D604B41420743800BE2DB3 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D604B21420743800BE2DB3 /* MyDocument.xib */; };
+		21D604B71420743800BE2DB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D604B51420743800BE2DB3 /* MainMenu.xib */; };
+		21D604C11420753600BE2DB3 /* ChattyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D604C01420753600BE2DB3 /* ChattyViewController.xib */; };
+		21D604C31420772400BE2DB3 /* ChatRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D604C21420772400BE2DB3 /* ChatRoomViewController.xib */; };
+		21D604C6142077CB00BE2DB3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604C5142077CB00BE2DB3 /* BaseViewController.m */; };
+		21D604C91420787D00BE2DB3 /* ChattyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604C81420787C00BE2DB3 /* ChattyViewController.m */; };
+		21D604CC1420788F00BE2DB3 /* ChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604CB1420788D00BE2DB3 /* ChatRoomViewController.m */; };
+		21D604D1142079CB00BE2DB3 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604D0142079CB00BE2DB3 /* AppConfig.m */; };
+		21D604D9142079DB00BE2DB3 /* LocalRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604D3142079DB00BE2DB3 /* LocalRoom.m */; };
+		21D604DA142079DB00BE2DB3 /* RemoteRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604D5142079DB00BE2DB3 /* RemoteRoom.m */; };
+		21D604DB142079DB00BE2DB3 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604D7142079DB00BE2DB3 /* Room.m */; };
+		21D604E5142079EA00BE2DB3 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604DD142079EA00BE2DB3 /* Connection.m */; };
+		21D604E6142079EA00BE2DB3 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604E0142079EA00BE2DB3 /* Server.m */; };
+		21D604E7142079EA00BE2DB3 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D604E2142079EA00BE2DB3 /* ServerBrowser.m */; };
+		21D604ED14207CEF00BE2DB3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D604EC14207CEF00BE2DB3 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21D604991420743800BE2DB3 /* MacChatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacChatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D6049D1420743800BE2DB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		21D604A01420743800BE2DB3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		21D604A11420743800BE2DB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		21D604A21420743800BE2DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21D604A51420743800BE2DB3 /* MacChatty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacChatty-Info.plist"; sourceTree = "<group>"; };
+		21D604A71420743800BE2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21D604A91420743800BE2DB3 /* MacChatty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacChatty-Prefix.pch"; sourceTree = "<group>"; };
+		21D604AA1420743800BE2DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21D604AD1420743800BE2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		21D604AF1420743800BE2DB3 /* MyDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		21D604B01420743800BE2DB3 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		21D604B31420743800BE2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		21D604B61420743800BE2DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21D604C01420753600BE2DB3 /* ChattyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChattyViewController.xib; sourceTree = "<group>"; };
+		21D604C21420772400BE2DB3 /* ChatRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRoomViewController.xib; sourceTree = "<group>"; };
+		21D604C4142077CB00BE2DB3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		21D604C5142077CB00BE2DB3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		21D604C71420787B00BE2DB3 /* ChattyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChattyViewController.h; sourceTree = "<group>"; };
+		21D604C81420787C00BE2DB3 /* ChattyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChattyViewController.m; sourceTree = "<group>"; };
+		21D604CA1420788C00BE2DB3 /* ChatRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRoomViewController.h; sourceTree = "<group>"; };
+		21D604CB1420788D00BE2DB3 /* ChatRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRoomViewController.m; sourceTree = "<group>"; };
+		21D604CF142079CB00BE2DB3 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConfig.h; path = Misc/AppConfig.h; sourceTree = "<group>"; };
+		21D604D0142079CB00BE2DB3 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppConfig.m; path = Misc/AppConfig.m; sourceTree = "<group>"; };
+		21D604D2142079DB00BE2DB3 /* LocalRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalRoom.h; path = Logic/LocalRoom.h; sourceTree = "<group>"; };
+		21D604D3142079DB00BE2DB3 /* LocalRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalRoom.m; path = Logic/LocalRoom.m; sourceTree = "<group>"; };
+		21D604D4142079DB00BE2DB3 /* RemoteRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteRoom.h; path = Logic/RemoteRoom.h; sourceTree = "<group>"; };
+		21D604D5142079DB00BE2DB3 /* RemoteRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteRoom.m; path = Logic/RemoteRoom.m; sourceTree = "<group>"; };
+		21D604D6142079DB00BE2DB3 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Room.h; path = Logic/Room.h; sourceTree = "<group>"; };
+		21D604D7142079DB00BE2DB3 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Room.m; path = Logic/Room.m; sourceTree = "<group>"; };
+		21D604D8142079DB00BE2DB3 /* RoomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoomDelegate.h; path = Logic/RoomDelegate.h; sourceTree = "<group>"; };
+		21D604DC142079EA00BE2DB3 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = Networking/Connection.h; sourceTree = "<group>"; };
+		21D604DD142079EA00BE2DB3 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = Networking/Connection.m; sourceTree = "<group>"; };
+		21D604DE142079EA00BE2DB3 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionDelegate.h; path = Networking/ConnectionDelegate.h; sourceTree = "<group>"; };
+		21D604DF142079EA00BE2DB3 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Server.h; path = Networking/Server.h; sourceTree = "<group>"; };
+		21D604E0142079EA00BE2DB3 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Server.m; path = Networking/Server.m; sourceTree = "<group>"; };
+		21D604E1142079EA00BE2DB3 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerBrowser.h; path = Networking/ServerBrowser.h; sourceTree = "<group>"; };
+		21D604E2142079EA00BE2DB3 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerBrowser.m; path = Networking/ServerBrowser.m; sourceTree = "<group>"; };
+		21D604E3142079EA00BE2DB3 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerBrowserDelegate.h; path = Networking/ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		21D604E4142079EA00BE2DB3 /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerDelegate.h; path = Networking/ServerDelegate.h; sourceTree = "<group>"; };
+		21D604EC14207CEF00BE2DB3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D604961420743800BE2DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D6049E1420743800BE2DB3 /* Cocoa.framework in Frameworks */,
+				21D604ED14207CEF00BE2DB3 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D6048E1420743800BE2DB3 = {
+			isa = PBXGroup;
+			children = (
+				21D604A31420743800BE2DB3 /* MacChatty */,
+				21D6049C1420743800BE2DB3 /* Frameworks */,
+				21D6049A1420743800BE2DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D6049A1420743800BE2DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D604991420743800BE2DB3 /* MacChatty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D6049C1420743800BE2DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D604EC14207CEF00BE2DB3 /* CoreServices.framework */,
+				21D6049D1420743800BE2DB3 /* Cocoa.framework */,
+				21D6049F1420743800BE2DB3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21D6049F1420743800BE2DB3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D604A01420743800BE2DB3 /* AppKit.framework */,
+				21D604A11420743800BE2DB3 /* CoreData.framework */,
+				21D604A21420743800BE2DB3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		21D604A31420743800BE2DB3 /* MacChatty */ = {
+			isa = PBXGroup;
+			children = (
+				21D604CE142078F900BE2DB3 /* Misc */,
+				21D604CD142078E700BE2DB3 /* Business Logic */,
+				21D604BE1420744C00BE2DB3 /* Networking */,
+				21D604BF1420745500BE2DB3 /* UI */,
+				21D604BD1420743F00BE2DB3 /* Res */,
+				21D604A41420743800BE2DB3 /* Supporting Files */,
+			);
+			path = MacChatty;
+			sourceTree = "<group>";
+		};
+		21D604A41420743800BE2DB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21D604A51420743800BE2DB3 /* MacChatty-Info.plist */,
+				21D604A61420743800BE2DB3 /* InfoPlist.strings */,
+				21D604A91420743800BE2DB3 /* MacChatty-Prefix.pch */,
+				21D604AA1420743800BE2DB3 /* main.m */,
+				21D604AC1420743800BE2DB3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21D604BD1420743F00BE2DB3 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				21D604B21420743800BE2DB3 /* MyDocument.xib */,
+				21D604B51420743800BE2DB3 /* MainMenu.xib */,
+				21D604C01420753600BE2DB3 /* ChattyViewController.xib */,
+				21D604C21420772400BE2DB3 /* ChatRoomViewController.xib */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		21D604BE1420744C00BE2DB3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				21D604DC142079EA00BE2DB3 /* Connection.h */,
+				21D604DD142079EA00BE2DB3 /* Connection.m */,
+				21D604DE142079EA00BE2DB3 /* ConnectionDelegate.h */,
+				21D604DF142079EA00BE2DB3 /* Server.h */,
+				21D604E0142079EA00BE2DB3 /* Server.m */,
+				21D604E1142079EA00BE2DB3 /* ServerBrowser.h */,
+				21D604E2142079EA00BE2DB3 /* ServerBrowser.m */,
+				21D604E3142079EA00BE2DB3 /* ServerBrowserDelegate.h */,
+				21D604E4142079EA00BE2DB3 /* ServerDelegate.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		21D604BF1420745500BE2DB3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				21D604AF1420743800BE2DB3 /* MyDocument.h */,
+				21D604B01420743800BE2DB3 /* MyDocument.m */,
+				21D604C4142077CB00BE2DB3 /* BaseViewController.h */,
+				21D604C5142077CB00BE2DB3 /* BaseViewController.m */,
+				21D604C71420787B00BE2DB3 /* ChattyViewController.h */,
+				21D604C81420787C00BE2DB3 /* ChattyViewController.m */,
+				21D604CA1420788C00BE2DB3 /* ChatRoomViewController.h */,
+				21D604CB1420788D00BE2DB3 /* ChatRoomViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		21D604CD142078E700BE2DB3 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				21D604D2142079DB00BE2DB3 /* LocalRoom.h */,
+				21D604D3142079DB00BE2DB3 /* LocalRoom.m */,
+				21D604D4142079DB00BE2DB3 /* RemoteRoom.h */,
+				21D604D5142079DB00BE2DB3 /* RemoteRoom.m */,
+				21D604D6142079DB00BE2DB3 /* Room.h */,
+				21D604D7142079DB00BE2DB3 /* Room.m */,
+				21D604D8142079DB00BE2DB3 /* RoomDelegate.h */,
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		21D604CE142078F900BE2DB3 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				21D604CF142079CB00BE2DB3 /* AppConfig.h */,
+				21D604D0142079CB00BE2DB3 /* AppConfig.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D604981420743800BE2DB3 /* MacChatty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D604BA1420743800BE2DB3 /* Build configuration list for PBXNativeTarget "MacChatty" */;
+			buildPhases = (
+				21D604951420743800BE2DB3 /* Sources */,
+				21D604961420743800BE2DB3 /* Frameworks */,
+				21D604971420743800BE2DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacChatty;
+			productName = MacChatty;
+			productReference = 21D604991420743800BE2DB3 /* MacChatty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D604901420743800BE2DB3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 21D604931420743800BE2DB3 /* Build configuration list for PBXProject "MacChatty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21D6048E1420743800BE2DB3;
+			productRefGroup = 21D6049A1420743800BE2DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D604981420743800BE2DB3 /* MacChatty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D604971420743800BE2DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D604A81420743800BE2DB3 /* InfoPlist.strings in Resources */,
+				21D604AE1420743800BE2DB3 /* Credits.rtf in Resources */,
+				21D604B41420743800BE2DB3 /* MyDocument.xib in Resources */,
+				21D604B71420743800BE2DB3 /* MainMenu.xib in Resources */,
+				21D604C11420753600BE2DB3 /* ChattyViewController.xib in Resources */,
+				21D604C31420772400BE2DB3 /* ChatRoomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D604951420743800BE2DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D604AB1420743800BE2DB3 /* main.m in Sources */,
+				21D604B11420743800BE2DB3 /* MyDocument.m in Sources */,
+				21D604C6142077CB00BE2DB3 /* BaseViewController.m in Sources */,
+				21D604C91420787D00BE2DB3 /* ChattyViewController.m in Sources */,
+				21D604CC1420788F00BE2DB3 /* ChatRoomViewController.m in Sources */,
+				21D604D1142079CB00BE2DB3 /* AppConfig.m in Sources */,
+				21D604D9142079DB00BE2DB3 /* LocalRoom.m in Sources */,
+				21D604DA142079DB00BE2DB3 /* RemoteRoom.m in Sources */,
+				21D604DB142079DB00BE2DB3 /* Room.m in Sources */,
+				21D604E5142079EA00BE2DB3 /* Connection.m in Sources */,
+				21D604E6142079EA00BE2DB3 /* Server.m in Sources */,
+				21D604E7142079EA00BE2DB3 /* ServerBrowser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21D604A61420743800BE2DB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D604A71420743800BE2DB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21D604AC1420743800BE2DB3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D604AD1420743800BE2DB3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		21D604B21420743800BE2DB3 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D604B31420743800BE2DB3 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		21D604B51420743800BE2DB3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D604B61420743800BE2DB3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D604B81420743800BE2DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21D604B91420743800BE2DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21D604BB1420743800BE2DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacChatty/MacChatty-Prefix.pch";
+				INFOPLIST_FILE = "MacChatty/MacChatty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21D604BC1420743800BE2DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/Frameworks/CoreServices.framework/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacChatty/MacChatty-Prefix.pch";
+				INFOPLIST_FILE = "MacChatty/MacChatty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D604931420743800BE2DB3 /* Build configuration list for PBXProject "MacChatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D604B81420743800BE2DB3 /* Debug */,
+				21D604B91420743800BE2DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D604BA1420743800BE2DB3 /* Build configuration list for PBXNativeTarget "MacChatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D604BB1420743800BE2DB3 /* Debug */,
+				21D604BC1420743800BE2DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D604901420743800BE2DB3 /* Project object */;
+}

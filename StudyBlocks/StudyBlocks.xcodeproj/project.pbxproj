@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B950AF140631DA003C57DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B950AE140631DA003C57DB /* Foundation.framework */; };
+		21B950B2140631DB003C57DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B950B1140631DB003C57DB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21B950A8140631DA003C57DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21B950AA140631DA003C57DB /* StudyBlocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyBlocks; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B950AE140631DA003C57DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21B950B1140631DB003C57DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21B950B4140631DB003C57DB /* StudyBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		21B950B5140631DB003C57DB /* StudyBlocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = StudyBlocks.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B950A7140631DA003C57DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B950AF140631DA003C57DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B9509F140631DA003C57DB = {
+			isa = PBXGroup;
+			children = (
+				21B950B0140631DB003C57DB /* StudyBlocks */,
+				21B950AD140631DA003C57DB /* Frameworks */,
+				21B950AB140631DA003C57DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B950AB140631DA003C57DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B950AA140631DA003C57DB /* StudyBlocks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B950AD140631DA003C57DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21B950AE140631DA003C57DB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21B950B0140631DB003C57DB /* StudyBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				21B950B1140631DB003C57DB /* main.m */,
+				21B950B5140631DB003C57DB /* StudyBlocks.1 */,
+				21B950B3140631DB003C57DB /* Supporting Files */,
+			);
+			path = StudyBlocks;
+			sourceTree = "<group>";
+		};
+		21B950B3140631DB003C57DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B950B4140631DB003C57DB /* StudyBlocks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B950A9140631DA003C57DB /* StudyBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B950B8140631DB003C57DB /* Build configuration list for PBXNativeTarget "StudyBlocks" */;
+			buildPhases = (
+				21B950A6140631DA003C57DB /* Sources */,
+				21B950A7140631DA003C57DB /* Frameworks */,
+				21B950A8140631DA003C57DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyBlocks;
+			productName = StudyBlocks;
+			productReference = 21B950AA140631DA003C57DB /* StudyBlocks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B950A1140631DA003C57DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 21B950A4140631DA003C57DB /* Build configuration list for PBXProject "StudyBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21B9509F140631DA003C57DB;
+			productRefGroup = 21B950AB140631DA003C57DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B950A9140631DA003C57DB /* StudyBlocks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B950A6140631DA003C57DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B950B2140631DB003C57DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21B950B6140631DB003C57DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21B950B7140631DB003C57DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21B950B9140631DB003C57DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudyBlocks/StudyBlocks-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21B950BA140631DB003C57DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StudyBlocks/StudyBlocks-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B950A4140631DA003C57DB /* Build configuration list for PBXProject "StudyBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B950B6140631DB003C57DB /* Debug */,
+				21B950B7140631DB003C57DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B950B8140631DB003C57DB /* Build configuration list for PBXNativeTarget "StudyBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B950B9140631DB003C57DB /* Debug */,
+				21B950BA140631DB003C57DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B950A1140631DA003C57DB /* Project object */;
+}
